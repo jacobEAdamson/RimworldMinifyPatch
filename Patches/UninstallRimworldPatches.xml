@@ -1,0 +1,329 @@
+<Patch>
+
+  <!-- ========================= Work tables ==========================-->
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/minifiedDef</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/thingCategories</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "FabricationBench"]/minifiedDef</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "FabricationBench"]/thingCategories</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/minifiedDef</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/thingCategories</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsProduction</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>20</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsProduction</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/statBases/Cleanliness</xpath>
+    <value>
+      <Mass>20</Mass>
+    </value>
+  </Operation>
+
+  <!--======================== Misc Buildings ==============================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "CommsConsole"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "CommsConsole"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>48</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "MoisturePump"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "MoisturePump"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>35</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>80</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "LongRangeMineralScanner"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "LongRangeMineralScanner"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>80</Mass>
+    </value>
+  </Operation>
+
+  <!--========================== Transport pods ============================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PodLauncher"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PodLauncher"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>20</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "TransportPod"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "TransportPod"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>25</Mass>
+    </value>
+  </Operation>
+
+  <!--=========================== Graves ============================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Sarcophagus"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Sarcophagus"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>25</Mass>
+    </value>
+  </Operation>
+
+  <!--======================= Cryptosleep caskets ===========================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "CryptosleepCasket"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "CryptosleepCasket"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>75</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>75</Mass>
+    </value>
+  </Operation>
+
+  <!--=============== Autocannon turret ===============-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Turret_Autocannon"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsSecurity</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- ======================== Lighting ======================= -->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "TorchLamp"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsFurniture</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "TorchLamp"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>4</Mass>
+    </value>
+  </Operation>
+
+  <!--======================== Temperature ==============================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Cooler"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsTemperature</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Cooler"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>35</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Campfire"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsTemperature</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Campfire"]/statBases/WorkTableWorkSpeedFactor</xpath>
+    <value>
+      <Mass>5</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PassiveCooler"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsTemperature</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PassiveCooler"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>20</Mass>
+    </value>
+  </Operation>
+
+  <!--======================== Nutrient dispenser ==============================-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "NutrientPasteDispenser"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsProduction</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "NutrientPasteDispenser"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>35</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Hopper"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsProduction</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Hopper"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>6</Mass>
+    </value>
+  </Operation>
+
+</Patch>

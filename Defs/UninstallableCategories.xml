@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Buildings -->
+
+  <ThingCategoryDef>
+    <defName>BuildingsShip</defName>
+    <label>ship</label>
+    <parent>Buildings</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>BuildingsStructure</defName>
+    <label>structure</label>
+    <parent>Buildings</parent>
+  </ThingCategoryDef>
+
+</Defs>

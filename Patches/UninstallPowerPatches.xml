@@ -1,0 +1,121 @@
+<Patch>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SolarGenerator"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SolarGenerator"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>40</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WatermillGenerator"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WatermillGenerator"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>140</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PowerSwitch"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "PowerSwitch"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>6</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>40</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>40</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WindTurbine"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "WindTurbine"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>40</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "GeothermalGenerator"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsPower</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "GeothermalGenerator"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>130</Mass>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,71 @@
+<Patch>
+
+  <!--=============== Ancient Buildings ===============-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientConcreteBarrier"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientConcreteBarrier"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>6</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientLamppost"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "AncientLamppost"]/statBases/WorkToBuild</xpath>
+    <value>
+      <Mass>6</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SteleLarge"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SteleLarge"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>55</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SteleGrand"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsMisc</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "SteleGrand"]/statBases/Beauty</xpath>
+    <value>
+      <Mass>110</Mass>
+    </value>
+  </Operation>
+
+</Patch>

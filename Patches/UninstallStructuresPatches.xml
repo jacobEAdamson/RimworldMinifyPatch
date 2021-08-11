@@ -1,0 +1,66 @@
+<Patch>
+
+  <!--=============== Structures ===============-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[@Name = "DoorBase"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsStructure</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[@Name = "DoorBase"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>10</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Column"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsStructure</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Sandbags"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsSecurity</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Sandbags"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>2</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Barricade"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsSecurity</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Barricade"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>2</Mass>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,101 @@
+<Patch>
+
+  <!--=============== Ship ===============-->
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Beam"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Beam"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>100</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>55</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_ComputerCore"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_ComputerCore"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>85</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Reactor"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Reactor"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>275</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Engine"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_Engine"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>275</Mass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_SensorCluster"]/statBases</xpath>
+    <value>
+      <minifiedDef>MinifiedThing</minifiedDef>
+      <thingCategories>
+        <li>BuildingsShip</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef[defName = "Ship_SensorCluster"]/statBases/Flammability</xpath>
+    <value>
+      <Mass>60</Mass>
+    </value>
+  </Operation>
+
+</Patch>
