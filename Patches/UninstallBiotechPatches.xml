@@ -1,0 +1,172 @@
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName = "BasicRecharger"]/statBases</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "BasicRecharger"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "StandardRecharger"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "BandNode"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "ToxifierGenerator"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "GeneAssembler"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "GeneExtractor"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "GrowthVat"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "BurnoutMechlinkBooster"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "MechbandDish"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "WastepackAtomizer"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "GeneProcessor"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "MechGestator"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "LargeMechGestator"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "SubcoreEncoder"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "SubcoreRipscanner"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/ThingDef[defName = "SubcoreSoftscanner"]/statBases</xpath>
+          <value>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <thingCategories>
+              <li>BuildingsMisc</li>
+            </thingCategories>
+          </value>
+        </li>
+        
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
+
+

@@ -66,6 +66,7 @@
       </thingCategories>
     </value>
   </Operation>
+  
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef[defName = "CommsConsole"]/statBases/Flammability</xpath>
     <value>

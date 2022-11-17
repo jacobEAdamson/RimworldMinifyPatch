@@ -11,6 +11,7 @@
       </thingCategories>
     </value>
   </Operation>
+  
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef[defName = "AncientConcreteBarrier"]/statBases/Flammability</xpath>
     <value>
