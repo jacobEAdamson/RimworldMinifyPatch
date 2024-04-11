@@ -220,25 +220,6 @@
     </value>
   </Operation>
 
-  <!-- ======================== Lighting ======================= -->
-
-  <Operation Class="PatchOperationInsert">
-    <xpath>Defs/ThingDef[defName = "TorchLamp"]/statBases</xpath>
-    <value>
-      <minifiedDef>MinifiedThing</minifiedDef>
-      <thingCategories>
-        <li>BuildingsFurniture</li>
-      </thingCategories>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationInsert">
-    <xpath>Defs/ThingDef[defName = "TorchLamp"]/statBases/Flammability</xpath>
-    <value>
-      <Mass>4</Mass>
-    </value>
-  </Operation>
-
   <!--======================== Temperature ==============================-->
 
   <Operation Class="PatchOperationInsert">
