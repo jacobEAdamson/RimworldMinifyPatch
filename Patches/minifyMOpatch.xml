@@ -10,7 +10,7 @@
 		<success>Normal</success>
 			<operations>		
 			 	 <!--======================== Slop Pot ==============================-->
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
@@ -20,14 +20,14 @@
 				    </value>
 				  </li>
 				
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases/Flammability</xpath>
 				    <value>
 				      <Mass>35</Mass>
 				    </value>
 				  </li>
 				<!--======================== Stew Pot ==============================-->
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
@@ -37,14 +37,14 @@
 				    </value>
 				  </li>
 				
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases/Flammability</xpath>
 				    <value>
 				      <Mass>35</Mass>
 				    </value>
 				  </li>
 				<!--======================== Fondue Pot ==============================-->
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
@@ -54,7 +54,7 @@
 				    </value>
 				  </li>
 				
-				  <li Class="PatchOperationInsert">
+				  <li Class="PatchOperationAdd">
 				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases/Flammability</xpath>
 				    <value>
 				      <Mass>35</Mass>
