@@ -11,7 +11,7 @@
 			<operations>		
 			 	 <!--======================== Slop Pot ==============================-->
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
 				      <thingCategories>
@@ -21,14 +21,14 @@
 				  </li>
 				
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases/Flammability</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases</xpath>
 				    <value>
 				      <Mass>35</Mass>
 				    </value>
 				  </li>
 				<!--======================== Stew Pot ==============================-->
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
 				      <thingCategories>
@@ -38,14 +38,14 @@
 				  </li>
 				
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases/Flammability</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases</xpath>
 				    <value>
 				      <Mass>35</Mass>
 				    </value>
 				  </li>
 				<!--======================== Fondue Pot ==============================-->
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]</xpath>
 				    <value>
 				      <minifiedDef>MinifiedThing</minifiedDef>
 				      <thingCategories>
@@ -55,7 +55,7 @@
 				  </li>
 				
 				  <li Class="PatchOperationAdd">
-				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases/Flammability</xpath>
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases</xpath>
 				    <value>
 				      <Mass>35</Mass>
 				    </value>
