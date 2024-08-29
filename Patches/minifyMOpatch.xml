@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>		
+			 	 <!--======================== Slop Pot ==============================-->
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]</xpath>
+				    <value>
+				      <minifiedDef>MinifiedThing</minifiedDef>
+				      <thingCategories>
+				        <li>BuildingsProduction</li>
+				      </thingCategories>
+				    </value>
+				  </li>
+				
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot"]/statBases</xpath>
+				    <value>
+				      <Mass>35</Mass>
+				    </value>
+				  </li>
+				<!--======================== Stew Pot ==============================-->
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]</xpath>
+				    <value>
+				      <minifiedDef>MinifiedThing</minifiedDef>
+				      <thingCategories>
+				        <li>BuildingsProduction</li>
+				      </thingCategories>
+				    </value>
+				  </li>
+				
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Stew"]/statBases</xpath>
+				    <value>
+				      <Mass>35</Mass>
+				    </value>
+				  </li>
+				<!--======================== Fondue Pot ==============================-->
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]</xpath>
+				    <value>
+				      <minifiedDef>MinifiedThing</minifiedDef>
+				      <thingCategories>
+				        <li>BuildingsProduction</li>
+				      </thingCategories>
+				    </value>
+				  </li>
+				
+				  <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef[defName = "DankPyon_SlopPot_Fondue"]/statBases</xpath>
+				    <value>
+				      <Mass>35</Mass>
+				    </value>
+				  </li>
+			</operations>	
+		</match>			
+	</Operation>
+</Patch>
